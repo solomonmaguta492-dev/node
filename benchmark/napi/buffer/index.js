@@ -12,3 +12,4 @@ function main({ n, implem, addon }) {
   const binding = require(`./build/${common.buildType}/${addon}`);
   binding[implem](bench, n);
 }
+
